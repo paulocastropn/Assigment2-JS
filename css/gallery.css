@@ -1,0 +1,71 @@
+/* Body styles */
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,249,138,1) 36%, rgba(240,242,0,1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+#gallery {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Featured image styles */
+figure {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure img {
+    width: 1200px; /* Set width to 1200px */
+    height: 800px; /* Set height to 800px */
+    border: 2px solid black;
+}
+
+/* Thumbnail list styles */
+#thumbnail-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+#thumbnail-list li {
+    margin-right: 10px;
+}
+
+#thumbnail-list img {
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+#thumbnail-list img:hover {
+    border-color: #333;
+}
+
+/* H1 styles */
+h1 {
+    color: #333; /* Dark text color */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Figcaption styles */
+figcaption {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #333; /* Dark text color */
+    margin-top: 10px;
+    text-align: center;
+}
